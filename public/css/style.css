@@ -1,0 +1,100 @@
+@font-face {
+    font-family: Roboto;
+    scr: url(../fonts/Roboto/);
+}
+
+.navbar_ {
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+h1 {
+    color: black;
+    font-size: 55px;
+    font-weight: 550;
+}
+
+#navbar_secondary {
+    font-size: 10px;
+    background: rgb(193, 23, 12);
+    color: white;
+}
+
+#starter_text {
+    font-size: 15px;
+    background-color: rgba(243, 156, 75, 0.986);
+    color: white;
+    margin-top: 20px;
+}
+
+.navbar-toggler {
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px 20px 0px;
+    padding: 0;
+    overflow: hidden;
+}
+
+.btn {
+    border: none;
+}
+
+.btn:hover {
+    background: none;
+}
+
+li {
+    border: none;
+    float: left;
+}
+
+.frist_nav {
+    border-right: 1px solid #DCDCDC;
+}
+
+a.btn-outline-primary:hover {
+    text-decoration: none;
+    color: rgb(0, 0, 255);
+}
+
+a.btn-outline-danger:hover {
+    text-decoration: none;
+    color: red;
+}
+
+a.btn-outline-success:hover {
+    text-decoration: none;
+    color: rgb(12, 204, 6);
+}
+
+a.btn-outline-warning:hover {
+    text-decoration: none;
+    color: rgba(247, 243, 29, 0.76);
+}
+
+li a {
+    text-display: block;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.box_content {
+    width: 650px;
+    text-align: left;
+    font-size: 22px;
+    margin-left: 125px;
+}
+
+p {
+    font-weight: 150;
+}
+
+footer {
+    background-color: rgb(193, 23, 12);
+}
